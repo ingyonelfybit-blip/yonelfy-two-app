@@ -38,10 +38,10 @@ addEventListener("message", eventListener);
 if (!window._flutter) {
   window._flutter = {};
 }
-_flutter.buildConfig = {"engineRevision":"e2149387c63888c6a51c8c3569dacda1c1532653","wasmHashes":{"canvaskit.wasm":"224c2a9e832ecc3072c5e7fac201ced835a151a50c53d488b37bbaf7290350db","chromium/canvaskit.wasm":"535555e40b4952664abebc87bcb2b8c31c86e36e836f735dd4e6cd9ff3ddfde8","skwasm.wasm":"e3c66620cfd56559e2ffd61081b48125caa69d6bc28ff5bc73d89b9d8a9d8155","skwasm_heavy.wasm":"8c2647525236dd48b6397018497b14d07d8cf6404d6009a2e5b545c7539ef50a","webparagraph/canvaskit.wasm":"54284ebb7d219fdb72d2c070cad083d6190a323ee6e8224c9b0ae1f617133bbc","wimp.wasm":"f0cabf3c514c0b8da2a598660fb2b64c1307cd64daf0378f2fe59b5a9cd04a6a"},"builds":[{"compileTarget":"dart2js","renderer":"canvaskit","mainJsPath":"main.dart.js?v=33da4675e20644643fdbdb1b343757fb7e3537662f97ac8d3380ad4d011b44f4"},{}],"useLocalCanvasKit":true};
+_flutter.buildConfig = {"engineRevision":"e2149387c63888c6a51c8c3569dacda1c1532653","wasmHashes":{"canvaskit.wasm":"224c2a9e832ecc3072c5e7fac201ced835a151a50c53d488b37bbaf7290350db","chromium/canvaskit.wasm":"535555e40b4952664abebc87bcb2b8c31c86e36e836f735dd4e6cd9ff3ddfde8","skwasm.wasm":"e3c66620cfd56559e2ffd61081b48125caa69d6bc28ff5bc73d89b9d8a9d8155","skwasm_heavy.wasm":"8c2647525236dd48b6397018497b14d07d8cf6404d6009a2e5b545c7539ef50a","webparagraph/canvaskit.wasm":"54284ebb7d219fdb72d2c070cad083d6190a323ee6e8224c9b0ae1f617133bbc","wimp.wasm":"f0cabf3c514c0b8da2a598660fb2b64c1307cd64daf0378f2fe59b5a9cd04a6a"},"builds":[{"compileTarget":"dart2js","renderer":"canvaskit","mainJsPath":"main.dart.js?v=9e193bffbe7be07287153a38c557379e65abf8c9e0084b77a1be4a88d26b1d7d"},{}],"useLocalCanvasKit":true};
 
 _flutter.loader.load({
   serviceWorkerSettings: {
-    serviceWorkerVersion: "3099670731" /* Flutter's service worker is deprecated and will be removed in a future Flutter release. */
+    serviceWorkerVersion: "879962678" /* Flutter's service worker is deprecated and will be removed in a future Flutter release. */
   }
 });
