@@ -38,10 +38,10 @@ addEventListener("message", eventListener);
 if (!window._flutter) {
   window._flutter = {};
 }
-_flutter.buildConfig = {"engineRevision":"e2149387c63888c6a51c8c3569dacda1c1532653","wasmHashes":{"canvaskit.wasm":"224c2a9e832ecc3072c5e7fac201ced835a151a50c53d488b37bbaf7290350db","chromium/canvaskit.wasm":"535555e40b4952664abebc87bcb2b8c31c86e36e836f735dd4e6cd9ff3ddfde8","skwasm.wasm":"e3c66620cfd56559e2ffd61081b48125caa69d6bc28ff5bc73d89b9d8a9d8155","skwasm_heavy.wasm":"8c2647525236dd48b6397018497b14d07d8cf6404d6009a2e5b545c7539ef50a","webparagraph/canvaskit.wasm":"54284ebb7d219fdb72d2c070cad083d6190a323ee6e8224c9b0ae1f617133bbc","wimp.wasm":"f0cabf3c514c0b8da2a598660fb2b64c1307cd64daf0378f2fe59b5a9cd04a6a"},"builds":[{"compileTarget":"dart2js","renderer":"canvaskit","mainJsPath":"main.dart.js?v=7f6eb1407eedd68cae8955d6e2a6206186cf3e13febb3d157931827a5ceb3cdd"},{}],"useLocalCanvasKit":true};
+_flutter.buildConfig = {"engineRevision":"e2149387c63888c6a51c8c3569dacda1c1532653","wasmHashes":{"canvaskit.wasm":"224c2a9e832ecc3072c5e7fac201ced835a151a50c53d488b37bbaf7290350db","chromium/canvaskit.wasm":"535555e40b4952664abebc87bcb2b8c31c86e36e836f735dd4e6cd9ff3ddfde8","skwasm.wasm":"e3c66620cfd56559e2ffd61081b48125caa69d6bc28ff5bc73d89b9d8a9d8155","skwasm_heavy.wasm":"8c2647525236dd48b6397018497b14d07d8cf6404d6009a2e5b545c7539ef50a","webparagraph/canvaskit.wasm":"54284ebb7d219fdb72d2c070cad083d6190a323ee6e8224c9b0ae1f617133bbc","wimp.wasm":"f0cabf3c514c0b8da2a598660fb2b64c1307cd64daf0378f2fe59b5a9cd04a6a"},"builds":[{"compileTarget":"dart2js","renderer":"canvaskit","mainJsPath":"main.dart.js?v=23642dc9e2f22549c22a3c6e11d70221791954bfd44f2a2a46437bc66c088a12"},{}],"useLocalCanvasKit":true};
 
 _flutter.loader.load({
   serviceWorkerSettings: {
-    serviceWorkerVersion: "2548212816" /* Flutter's service worker is deprecated and will be removed in a future Flutter release. */
+    serviceWorkerVersion: "4114879837" /* Flutter's service worker is deprecated and will be removed in a future Flutter release. */
   }
 });
