@@ -109576,7 +109576,7 @@ M(a){var s=null,r=A.qZ(a),q=$.b_Q().i(0,this.c),p=q.c.$1(r),o=q.b,n=this.d,m=A.S
 return A.bl(s,s,A.ky(s,A.hk(A.b([A.j1(q.a,p,s,18),B.iw,A.hQ(A.bm(n,s,s,s,A.S(a).ok.z,s,s),1)],t.p),B.a0,B.D,B.a4,0),B.J,s,s,new A.en(m,s,s,l,s,s,B.bw),s,s,s,B.VS,s,s,1/0),!1,s,s,!0,s,!1,s,s,s,s,s,s,s,s,s,o+". "+n,!0,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,B.u,s)}}
 A.Az.prototype={
 M(a){var s=null,r=A.S(a)
-r=r.ax.a===B.aa?"assets/brand/logo-horizontal-dark.svg":"assets/brand/logo-horizontal-light.svg"
+r=r.ax.a===B.aa?"assets/brand/justico-logo-horizontal-dark.svg":"assets/brand/justico-logo-horizontal-light.svg"
 return A.bl(s,s,new A.a1A(this.c,B.ha,new A.Jo(r,s,s,s,s),!0,s,s),!1,s,s,!1,s,!1,s,s,s,s,s,s,!0,s,s,"Justico. Facturaci\xf3n, contabilidad y gesti\xf3n",s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,B.u,s)}}
 A.jD.prototype={}
 A.a21.prototype={}
@@ -109673,7 +109673,7 @@ var $async$Ex=A.D(function(a,b){if(a===1)return A.E(b,r)
 for(;;)switch(s){case 0:m=p.a.gfi().b
 m===$&&A.a()
 s=3
-return A.t(m.Ew(B.fh,"Autenticador","YONELFY"),$async$Ex)
+return A.t(m.Ew(B.fh,"Autenticador","Justico"),$async$Ex)
 case 3:o=b
 n=o.c
 q=new A.a21(o.a,n.b,n.c)
@@ -110158,7 +110158,7 @@ p=A.iY(A.bm(q?"Verificando\u2026":"Entrar",n,n,n,n,n,n),B.asw,p)
 s=A.b([s,B.ca,r,B.eE,p,A.iA(B.aqu,q?n:o.gatk(),n),new A.wi(o.Q,n)],t.p)
 r=o.as
 if(r!=null)s.push(new A.bL(B.n8,new A.qJ(B.q6,r,n),n))
-return new A.rX("YONELFY Platform","Consola de administraci\xf3n de la plataforma. Acceso exclusivo con verificaci\xf3n en dos pasos.",new A.xg(A.cC(s,B.ba,n,B.D,B.a4),n),n)}}
+return new A.rX("Plataforma Justico","Consola de administraci\xf3n de la plataforma. Acceso exclusivo con verificaci\xf3n en dos pasos.",new A.xg(A.cC(s,B.ba,n,B.D,B.a4),n),n)}}
 A.aL5.prototype={
 $0(){return this.a.Q="Escriba su correo y su contrase\xf1a."},
 $S:0}
@@ -110556,12 +110556,13 @@ jw(a,b,c,d,e,f,g,h,i){var s,r,q,p=null
 if(d<=0)return
 if(f==null)s=c===B.aU?this.b-b.a-12:1/0
 else s=f
-r=A.vQ("\u2026",p,1,p,A.dN(p,p,p,p,p,p,p,p,p,A.fZ(p,p,e.dB(e.a*d),p,p,p,p,p,"Lexend",p,B.o1,g*this.d,p,p,i,p,p,!0,p,h,p,p,p,p,p,p),a),B.W,B.j,p,B.f0,B.aH)
-r.aF3(s<0?0:s)
-A:{if(B.dv===c){q=b.a-r.b.c
-break A}if(B.cp===c){q=b.a-r.b.c/2
-break A}q=b.a
-break A}r.aM(this.a,new A.i(q,b.b-r.b.a.nm(B.x)))},
+r=g>=28?"BricolageGrotesque":"InstrumentSans"
+q=A.vQ("\u2026",p,1,p,A.dN(p,p,p,p,p,p,p,p,p,A.fZ(p,p,e.dB(e.a*d),p,p,p,p,p,r,p,B.o1,g*this.d,p,p,i,p,p,!0,p,h,p,p,p,p,p,p),a),B.W,B.j,p,B.f0,B.aH)
+q.aF3(s<0?0:s)
+A:{if(B.dv===c){r=b.a-q.b.c
+break A}if(B.cp===c){r=b.a-q.b.c/2
+break A}r=b.a
+break A}q.aM(this.a,new A.i(r,b.b-q.b.a.nm(B.x)))},
 QX(a,b,c,d,e,f){return this.jw(a,b,B.aU,1,c,null,d,e,f)},
 A3(a,b,c,d,e){return this.jw(a,b,B.aU,1,c,null,d,0,e)},
 vU(a,b,c,d){return this.jw(a,b,B.aU,1,c,null,d,0,B.w)},
@@ -110864,7 +110865,7 @@ o=A.f0(p,".",",")
 p=4*b4
 n=150*b4
 b8.A3(o,new A.i(r-p,n),B.dI,96,B.hO)
-m=A.vQ(b3,b3,b3,b3,A.dN(b3,b3,b3,b3,b3,b3,b3,b3,b3,A.fZ(b3,b3,b3,b3,b3,b3,b3,b3,"Lexend",b3,b3,96*b4,b3,b3,B.hO,b3,b3,!0,b3,b3,b3,b3,b3,b3,b3,b3),o),B.W,B.j,b3,B.f0,B.aH)
+m=A.vQ(b3,b3,b3,b3,A.dN(b3,b3,b3,b3,b3,b3,b3,b3,b3,A.fZ(b3,b3,b3,b3,b3,b3,b3,b3,"BricolageGrotesque",b3,b3,96*b4,b3,b3,B.hO,b3,b3,!0,b3,b3,b3,b3,b3,b3,b3,b3),o),B.W,B.j,b3,B.f0,B.aH)
 m.Fr()
 b8.A3("%",new A.i(r+m.b.c+p,n),B.ri,40,B.hO)
 l=190*b4
@@ -110962,7 +110963,7 @@ bV(){this.cS()
 this.cG()
 this.ia()}}
 A.ZI.prototype={
-h8(a,b){return new A.Gg(B.agA,"YONELFY Platform",A.b7V(B.au),A.b7V(B.aa),b.d_($.aWs(),t.YX),B.AH,B.a52,B.a3m,!1,null)}}
+h8(a,b){return new A.Gg(B.agA,"Plataforma Justico",A.b7V(B.au),A.b7V(B.aa),b.d_($.aWs(),t.YX),B.AH,B.a52,B.a3m,!1,null)}}
 A.ZL.prototype={
 h8(a,b){if(!b.d_($.bcr(),t.y))return B.aiF
 return A.aWG(b.d_($.CI(),t.on),new A.avi(),new A.avj(),new A.avk())}}
@@ -111050,7 +111051,7 @@ if(a.a==="pending_mfa"&&a.b==="aal2"&&a.d){q=s.x
 if(q==null)q="Su segundo factor ya est\xe1 verificado. La activaci\xf3n queda auditada."
 p=s.w
 s=p?o:s.gag2()
-return A.vl(o,new A.fF(B.q5,"Active su cuenta de administraci\xf3n de plataforma",q,A.iY(A.bm(p?"Activando\u2026":"Activar cuenta",o,o,o,o,o,o),B.asB,s),o),o)}return A.vl(o,new A.fF(B.M_,"Esta cuenta no administra la plataforma","La consola YONELFY Platform es exclusiva de platform_super_admin. Los administradores de empresa usan Justico.",r,o),o)},
+return A.vl(o,new A.fF(B.q5,"Active su cuenta de administraci\xf3n de plataforma",q,A.iY(A.bm(p?"Activando\u2026":"Activar cuenta",o,o,o,o,o,o),B.asB,s),o),o)}return A.vl(o,new A.fF(B.M_,"Esta cuenta no administra la plataforma","La consola Plataforma Justico es exclusiva de platform_super_admin. Los administradores de empresa usan Justico.",r,o),o)},
 $S:659}
 A.aMM.prototype={
 $0(){return this.a.geY().ed($.km(),t.b0).ms()},
@@ -111073,7 +111074,7 @@ r=A.b([],t.p)
 if(!this.a)r.push(new A.dU(new A.avm(),p))
 r.push(B.iw)
 q=this.b.c
-r.push(A.hQ(A.bm(s>=700?"YONELFY Platform  /  "+q:q,1,B.aP,p,B.an_,p,p),1))
+r.push(A.hQ(A.bm(s>=700?"Plataforma Justico  /  "+q:q,1,B.aP,p,B.an_,p,p),1))
 if(s>=560)r.push(A.b1V(B.Xs,B.LW,B.LE,o))
 else r.push(new A.pE(p,p,p,B.Xn,p,o,"Nueva empresa",p,p,p,B.avH,B.LW))
 r.push(B.aqR)
@@ -111773,7 +111774,7 @@ p=J.bz(j)
 if(p.gcu(j)){o=A.b([],t.FG)
 for(p=p.ga6(j),n=t.b7;p.t();){m=p.gN()
 o.push(new A.er(m.a,A.bm(m.b,k,k,k,k,k,k),B.b7,k,n))}q.push(A.b1L(o,new A.aM4(l),s,t.N))}q=A.a4u(B.cJ,q,B.lM,8,12)
-return A.cC(A.b([new A.bL(B.tw,q,k),A.hQ(s==null?B.al_:A.lJ(B.dm,new A.aM5(l,s),"Sin registros",k,$.ag0(),"",t.b_),1)],r),B.ba,k,B.D,B.a4)}}
+return A.cC(A.b([new A.bL(B.tw,q,k),A.hQ(s==null?B.al0:A.lJ(B.dm,new A.aM5(l,s),"Sin registros",k,$.ag0(),"",t.b_),1)],r),B.ba,k,B.D,B.a4)}}
 A.aM4.prototype={
 $1(a){var s=this.a
 return s.a1(new A.aM3(s,a))},
@@ -122924,8 +122925,8 @@ B.iE=new A.i_(1,"loading")
 B.al2=new A.fF(B.iE,"Verificando acceso",null,null,null)
 B.aiE=new A.k2(null,B.al2,null,null)
 B.q5=new A.i_(11,"incomplete")
-B.al0=new A.fF(B.q5,"YONELFY Platform requiere un backend configurado","Compile con --dart-define=TWO_SUPABASE_URL=\u2026 y --dart-define=TWO_SUPABASE_PUBLISHABLE_KEY=\u2026 (ver docs/BUILD_LOCAL.md). La consola no tiene modo demostraci\xf3n.",null,null)
-B.aiF=new A.k2(null,B.al0,null,null)
+B.al_=new A.fF(B.q5,"Plataforma Justico requiere un backend configurado","Compile con --dart-define=TWO_SUPABASE_URL=\u2026 y --dart-define=TWO_SUPABASE_PUBLISHABLE_KEY=\u2026 (ver docs/BUILD_LOCAL.md). La consola no tiene modo demostraci\xf3n.",null,null)
+B.aiF=new A.k2(null,B.al_,null,null)
 B.al1=new A.fF(B.iE,"Iniciando",null,null,null)
 B.aiG=new A.k2(null,B.al1,null,null)
 B.eC=new A.vm(0,"idle")
@@ -123201,7 +123202,7 @@ B.L4=new A.vI(2,"moreButton")
 B.akX=new A.vI(3,"drawerButton")
 B.akZ=new A.qJ(B.q7,"Al crear: contexto aislado para la empresa, invitaci\xf3n o acceso del propietario y lista de onboarding (perfil fiscal, cat\xe1logo, reglas, saldos iniciales, e-CF, usuarios, impresoras, controles).",null)
 B.q4=new A.i_(0,"empty")
-B.al_=new A.fF(B.q4,"No hay empresas",null,null,null)
+B.al0=new A.fF(B.q4,"No hay empresas",null,null,null)
 B.al3=new A.fF(B.iE,"Cargando",null,null,null)
 B.L5=new A.qM(0,"indexed")
 B.al4=new A.qM(1,"editing")
