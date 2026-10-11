@@ -1,11 +1,11 @@
 {
-  "name": "YONELFY TWO",
-  "short_name": "YONELFY TWO",
+  "name": "Justico",
+  "short_name": "Justico",
   "start_url": ".",
   "display": "standalone",
-  "background_color": "#F6F4EF",
-  "theme_color": "#15191E",
-  "description": "Gestión · Contabilidad · Servicios",
+  "background_color": "#F6F7F9",
+  "theme_color": "#141A26",
+  "description": "Facturación · Contabilidad · Gestión",
   "orientation": "any",
   "prefer_related_applications": false,
   "icons": [
